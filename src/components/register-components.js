@@ -6,8 +6,7 @@ registerComponents({
     // Register all Stackbit components
     ...componentsMap
 
-    registerComponents({
-  ...componentsMap,
+    
   AlertSection: dynamic(() => import('./AlertSection'))
 })
 
