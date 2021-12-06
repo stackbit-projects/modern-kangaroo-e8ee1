@@ -7,7 +7,7 @@ registerComponents({
     ...componentsMap
 
     
-  AlertSection: dynamic(() => import('./AlertSection'))
+AlertSection: dynamic(() => import('./AlertSection'))
 
 
     // Override any static or dynamic component,
